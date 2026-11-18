@@ -197,6 +197,10 @@
 }
 
 @media (max-width: 700px) {
+  .typography-banner {
+    height: clamp(220px, 58vw, 280px);
+  }
+
   .guide > .tips-heading {
     font-size: clamp(36px, 7vw, 44px);
   }
@@ -558,8 +562,18 @@
   }
 
   .page-bar .burst img {
-    width: 72px;
-    height: 72px;
+    width: 68px;
+    height: 68px;
+  }
+
+  .page-bar .icon-button {
+    display: grid;
+    place-items: center;
+  }
+
+  .page-bar .icon-button img {
+    width: 17px;
+    height: 17px;
   }
 
   .monthly-layout {
