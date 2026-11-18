@@ -178,7 +178,7 @@ function Header({
       </Link>
       <nav className="desktop-nav">
         <a href="#recursos">Recursos</a>
-        <Link href="/inspiracion">Inspiración</Link>
+        <Link href="/tendencias">Inspiración</Link>
         <Link href="/productos">Productos</Link>
         <span className="nav-divider" />
         <a href="#newsletter">Newsletter</a>
@@ -1065,7 +1065,7 @@ export default function Page() {
             {[
               ["Inicio", "/"],
               ["Recursos", "/recursos"],
-              ["Inspiración", "/inspiracion"],
+              ["Inspiración", "/tendencias"],
               ["Productos", "/productos"],
             ].map(([label, url]) => (
               <Link key={url} href={url} onClick={() => setMenu(false)}>
